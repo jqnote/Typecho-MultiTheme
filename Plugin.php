@@ -106,10 +106,10 @@ class MultiTheme_Plugin implements Typecho_Plugin_Interface
                 $theme = null;
             }
         }else{
-            $theme = Typecho_Cookie::get('__typecho_theme');
+            $theme = Typecho_Cookie::get('__typecho_multi_theme');
         }
         if($theme && in_array($theme, $allowThemes)){
-            Typecho_Cookie::set('__typecho_theme', $theme);
+            Typecho_Cookie::set('__typecho_multi_theme', $theme);
             $options->theme = $theme;
         }
         return;
