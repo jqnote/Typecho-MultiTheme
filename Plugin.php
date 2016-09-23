@@ -4,9 +4,9 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
  * 多模板切换
  *
  * @package MultiTheme
- * @author yo2.me
+ * @author HackRose
  * @version 1.0.0
- * @link http://yo2.me
+ * @link http://hackrose.com
  */
 
 class MultiTheme_Plugin implements Typecho_Plugin_Interface
